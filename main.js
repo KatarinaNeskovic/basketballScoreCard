@@ -29,16 +29,18 @@ function addTwoGuest() {
 }
 
 function addThreeGuest() {
-  guest = guest + 2;
+  guest = guest + 3;
   guestStr.textContent = guest;
 }
 
 
 function resetGuest() {
-guestStr.textContent = 0;
+guest=0;
+guestStr.textContent = guest;
 
 }
 
 function resetHome () {
-homeStr.textContent=0;
+home=0;
+homeStr.textContent=home;
 }
